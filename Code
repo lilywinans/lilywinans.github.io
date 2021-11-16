@@ -25,8 +25,8 @@ img{
 /* begin hero styles */
 .hero-box {
     display: grid;
-    grid-template-columns: Ifr;
-    grid-template-rows: Ifr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
     align-content: center;
     justify-content: center;

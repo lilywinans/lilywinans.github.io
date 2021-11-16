@@ -13,7 +13,7 @@ body{
     padding-bottom: 10rem;
 }
 *,*::before, *::after {
-    box-sixing: inherit;
+    box-sizing: inherit;
 }
 img{
     width: 100%;
@@ -25,8 +25,8 @@ img{
 /* begin hero styles */
 .hero-box {
     display: grid;
-    grid-template-columns: Ifr;
-    grid-template-rows: Ifr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 0px;
     align-content: center;
     justify-content: center;
